@@ -1,0 +1,221 @@
+*/* Icon styles */
+
+.icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+  
+  /* Home icon */
+  .icon-home {
+    background-image: url("home-icon.png");
+  }
+  
+  /* About icon */
+  .icon-about {
+    background-image: url("person-icon.png");
+  }
+  
+  /* Contact icon */
+  .icon-contact {
+    background-image: url("share-icon.png");
+  }
+  
+  /* Change icon color on hover */
+  .icon:hover {
+    background-color: white;
+    border-color: #8DD0C0;
+  }
+  
+  /* Add home icon */
+  .icon-home:before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("home-icon.png");
+    background-size: cover;
+    margin-top: 13px;
+  }
+  
+  /* Add person icon */
+  .icon-about:before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("person-icon.png");
+    background-size: cover;
+    margin-top: 13px;
+  }
+  
+  /* Add share icon */
+  .icon-contact:before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("share-icon.png");
+    background-size: cover;
+    margin-top: 13px;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Header styles */
+  
+  header {
+    background-color: #8DD0C0;
+    padding: 20px;
+    border-bottom: 2px solid #F0CF5A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  /* Icon styles */
+  
+  .container {
+    text-align: center;
+  }
+
+  .button-signup,
+.button-login {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid #8DD0C0;
+  border-radius: 5px;
+  color: #8DD0C0;
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width: 150px;
+}
+
+.container {
+  text-align: center;
+}
+
+
+
+
+
+
+  .icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+  
+  /* Home icon */
+  .icon-home {
+    background-image: url("home-icon.png");
+  }
+  
+  /* About icon */
+  .icon-about {
+    background-image: url("person-icon.png");
+  }
+  
+  /* Contact icon */
+  .icon-contact {
+    background-image: url("share-icon.png");
+  }
+  
+  /* Change icon color on hover */
+  .icon:hover {
+    background-color: white;
+    border-color: #8DD0C0;
+  }
+  
+  /* Add home icon */
+  .icon-home:before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("home-icon.png");
+    background-size: cover;
+    margin-top: 13px;
+  }
+  
+  /* Add person icon */
+  
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  img {
+    display: block;
+    max-width: 20%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .button-signup,
+.button-login {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid #8DD0C0;
+  border-radius: 5px;
+  color: #8DD0C0;
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width: 150px;
+}
+
+.button-signup:hover,
+.button-login:hover {
+  background-color: #8DD0C0;
+  color: #FFF;
+}
